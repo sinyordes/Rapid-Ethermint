@@ -39,7 +39,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Improvements
 
-- (cli) [#1647](https://github.com/evmos/evmos/pull/1647) Update defaults on `evmosd start` flags.
+- (cli) [#1647](https://github.com/evmos/evmos/pull/1647) Update defaults on `rapidd start` flags.
 - (deps) [#1682](https://github.com/evmos/evmos/pull/1682) Migrate `evmos-ledger-go` logic to this repository.
 - (mod) [#1687](https://github.com/evmos/evmos/pull/1687) Bump Evmos version to v14.
 
@@ -164,7 +164,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Improvements
 
-- (tests) [#1434](https://github.com/evmos/evmos/pull/1434) Set default staking denom to `aevmos` in `evm` and `feemarket` tests
+- (tests) [#1434](https://github.com/evmos/evmos/pull/1434) Set default staking denom to `arapid` in `evm` and `feemarket` tests
 - (test) [#1402](https://github.com/evmos/evmos/pull/1402) Refactor NewTx function arguments
 - (test) [#1415](https://github.com/evmos/evmos/pull/1415) Refactor InvalidTx type and NextFn used in AnteHandler tests
 - (vesting) [#1400](https://github.com/evmos/evmos/pull/1400) Add convert vesting account message
@@ -308,7 +308,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 - (app) [#1165](https://github.com/evmos/evmos/pull/1165) Update Ledger supported algorithms to only consist of `EthSecp256k1`
 - (cmd) [#1172](https://github.com/evmos/evmos/pull/1172) Update default node snapshot interval to `5000`
-- (cmd) [\#1121](https://github.com/evmos/evmos/pull/1121) Fix `evmosd version` to show either tag or last commit.
+- (cmd) [\#1121](https://github.com/evmos/evmos/pull/1121) Fix `rapidd version` to show either tag or last commit.
 - (cmd) [\#1120](https://github.com/evmos/evmos/pull/1120) Fix snapshot configuration
 - (app) [\#1118](https://github.com/evmos/evmos/pull/1118) Setup gRPC node service with the application.
 - (analytics) [\#1094](https://github.com/evmos/evmos/pull/1094) Fix unbound metrics and remove labels that keep increasing.
@@ -482,7 +482,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 - (gitpod) [\#564](https://github.com/evmos/evmos/pull/564) Add one-click development environment
 - (erc20) [\#556](https://github.com/evmos/evmos/pull/556) Remove deprecated migrations.
 - (incentives) [\#551](https://github.com/evmos/evmos/pull/551) Add additional check to only distribute incentives to EOAs.
-- (cmd) [\#543](https://github.com/evmos/evmos/pull/543) Update mainnet default `min-gas-price` to `0.0025aevmos`.
+- (cmd) [\#543](https://github.com/evmos/evmos/pull/543) Update mainnet default `min-gas-price` to `0.0025arapid`.
 - (epochs) [\#539](https://github.com/evmos/evmos/pull/539) Use constants for epoch identifiers.
 
 ### Bug Fixes

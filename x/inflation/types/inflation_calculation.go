@@ -44,7 +44,7 @@ func CalculateEpochMintProvision(
 
 	// Multiply epochMintProvision with power reduction (10^18 for evmos) as the
 	// calculation is based on `evmos` and the issued tokens need to be given in
-	// `aevmos`
+	// `arapid`
 	epochProvision = epochProvision.Mul(sdk.NewDecFromInt(evmostypes.PowerReduction))
 	return epochProvision
 }

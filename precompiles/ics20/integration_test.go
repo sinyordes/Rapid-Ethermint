@@ -49,9 +49,9 @@ var (
 	// gasPrice defines a default gas price to be used in the testing suite
 	gasPrice = big.NewInt(200_000)
 
-	// array of allocations with only one allocation for 'aevmos' coin
+	// array of allocations with only one allocation for 'arapid' coin
 	defaultSingleAlloc []ics20.Allocation
-	// array of allocations with only two allocation for 'aevmos' and 'uatom' coins
+	// array of allocations with only two allocation for 'arapid' and 'uatom' coins
 	defaultManyAllocs []ics20.Allocation
 )
 
@@ -1202,10 +1202,10 @@ var _ = Describe("Calling ICS20 precompile from another contract", func() {
 			)
 		})
 
-		Context("'aevmos' coin", func() {
+		Context("'arapid' coin", func() {
 			Context("with authorization", func() {
 				BeforeEach(func() {
-					// set approval to transfer 'aevmos'
+					// set approval to transfer 'arapid'
 					s.setTransferApprovalForContract(defaultApproveArgs)
 				})
 
@@ -1492,7 +1492,7 @@ var _ = Describe("Calling ICS20 precompile from another contract", func() {
 			)
 		})
 
-		Context("transfer 'aevmos", func() {
+		Context("transfer 'arapid", func() {
 			var defaultTransferEvmosArgs contracts.CallArgs
 			BeforeEach(func() {
 				// send some funds to the contract from which the funds will be sent
@@ -1528,7 +1528,7 @@ var _ = Describe("Calling ICS20 precompile from another contract", func() {
 
 			Context("with authorization", func() {
 				BeforeEach(func() {
-					// set approval to transfer 'aevmos'
+					// set approval to transfer 'arapid'
 					s.setTransferApprovalForContract(defaultApproveArgs)
 				})
 

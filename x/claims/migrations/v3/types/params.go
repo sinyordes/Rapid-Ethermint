@@ -21,7 +21,7 @@ import (
 var _ types.LegacyParams = &V3Params{}
 
 var (
-	// DefaultClaimsDenom is aevmos
+	// DefaultClaimsDenom is arapid
 	DefaultClaimsDenom = utils.BaseDenom
 	// DefaultDurationUntilDecay is 1 month = 30.4375 days
 	DefaultDurationUntilDecay = 2629800 * time.Second
