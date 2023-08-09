@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KEY="mykey"+6
+KEY="wallet"
 CHAINID="rapid_9001-2"
 MONIKER="localtestnet"
 KEYRING="test"
