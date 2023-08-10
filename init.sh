@@ -37,7 +37,7 @@ cat $HOME/.rapidd/config/genesis.json | jq '.app_state["mint"]["params"]["mint_d
 cat $HOME/.rapidd/config/genesis.json | jq '.consensus_params["block"]["max_gas"]="20000000"' > $HOME/.rapidd/config/tmp_genesis.json && mv $HOME/.rapidd/config/tmp_genesis.json $HOME/.rapidd/config/genesis.json
 
 # Allocate genesis accounts (cosmos formatted addresses)
-./rapidd add-genesis-account $KEY 100000000000000000000000000arapid --keyring-backend $KEYRING
+./rapidd add-genesis-account $KEY 10000000000000000000000000arapid --keyring-backend $KEYRING
 
 # Sign genesis transaction
 ./rapidd gentx $KEY 1000000000000000000000arapid --keyring-backend $KEYRING --chain-id $CHAINID
