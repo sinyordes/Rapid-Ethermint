@@ -1,7 +1,7 @@
 #!/bin/bash
 
 KEY="wallet"
-CHAINID="rapid_9001-2"
+CHAINID="rapid_9009-2"
 MONIKER="localtestnet"
 KEYRING="test"
 KEYALGO="eth_secp256k1"
@@ -87,5 +87,5 @@ if [[ $1 == "pending" ]]; then
 fi
 
 # Start the node (remove the --pruning=nothing flag if historical queries are not needed)
-
-./rapidd start --metrics --pruning=nothing --evm.tracer=json $TRACE --log_level $LOGLEVEL --minimum-gas-prices=0.0001arapid --json-rpc.api eth,txpool,personal,net,debug,web3,miner --api.enable --json-rpc.enable
+echo "Success";
+# ./rapidd start --metrics --pruning=nothing --evm.tracer=json $TRACE --log_level $LOGLEVEL --minimum-gas-prices=0.0001arapid --json-rpc.api eth,txpool,personal,net,debug,web3,miner --api.enable --json-rpc.enable

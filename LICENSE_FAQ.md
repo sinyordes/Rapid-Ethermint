@@ -47,7 +47,7 @@ transaction of economic value.
 that, at any given time, is recognized as canonical in accordance with the
 blockchain consensus.The initial Designated Blockchains shall be the Evmos
 blockchains, identified by chain identifiers 9000 (testing network or testnet)
-and 9001 (main network or mainnet).
+and 9009 (main network or mainnet).
 
 Apart from Evmos repository, Evmos is currently building the Evmos Software
 Development Kit (Evmos SDK), to help developers to create their own
