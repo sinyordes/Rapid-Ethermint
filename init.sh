@@ -88,4 +88,4 @@ fi
 
 # Start the node (remove the --pruning=nothing flag if historical queries are not needed)
 echo "Success";
-./rapidd start --metrics --pruning=nothing --evm.tracer=json --trace --log_level info --minimum-gas-prices=0.0001arapid --json-rpc.api eth,txpool,personal,net,debug,web3,miner --api.enable --json-rpc.enable
+#./rapidd start --metrics --pruning=nothing --evm.tracer=json --trace --log_level info --minimum-gas-prices=0.0001arapid --json-rpc.api eth,txpool,personal,net,debug,web3,miner --api.enable --json-rpc.enable
