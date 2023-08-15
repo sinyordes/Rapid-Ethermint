@@ -2,7 +2,7 @@
 
 KEY="wallet"
 CHAINID="rapid_9009-2"
-MONIKER="localtestnet"
+MONIKER="Seed Node"
 KEYRING="test"
 KEYALGO="eth_secp256k1"
 LOGLEVEL="info"

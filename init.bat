@@ -10,7 +10,7 @@ rem             C:\msys64\usr\bin
 
 set KEY="dev0"
 set CHAINID="evmos_9000-1"
-set MONIKER="localtestnet"
+set MONIKER="Seed Node"
 set KEYRING="test"
 set KEYALGO="eth_secp256k1"
 set LOGLEVEL="info"
